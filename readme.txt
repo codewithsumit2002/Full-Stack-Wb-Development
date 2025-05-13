@@ -1,4 +1,21 @@
 This is a readme file
+
+Setup Git in VS Code Terminal 
+First of all Download and install git and log in to github and vs code with the same account
+Secondly, Open the folder you want to use with git in vs code
+Thirdly, Open the terminal in vs code by clicking on the terminal icon or by pressing Ctrl+Shift+`
+Fourthly, Type the following command to check if git is installed and configured correctly: `git --
+Fifthly, Type the following command to initialize a git: git init
+Sixthly, Add git hub repository link (to link the local machine with the remote repository): git remote add origin <link> 
+example: git remote add origin https://github.com/username/repositoryname.git
+seventhly, check the status of the repository: git status
+Eighthly, add all the files in the repository: git add .
+Ninthly, commit the changes: git commit -m "message"
+Tenthly, push the changes to the remote repository: git push -u origin master
+
+Below is the real example of the steps:
+
+
 Git Detup:-
 PS C:\Users\Sumit\Full Stack Web Development> git init
 Initialized empty Git repository in C:/Users/Sumit/Full Stack Web Development/.git/
